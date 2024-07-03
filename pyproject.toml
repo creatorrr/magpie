@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "magpie"
+version = "0.1.0"
+description = ""
+authors = ["Diwank Tomer <diwank@julep.ai>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.32.3"
+setfit = "^1.0.3"
+torch = "^2.3.1"
+datasets = "^2.20.0"
+hn-sdk = {git = "https://github.com/creatorrr/hacker-news.git"}
+arrow = "^1.3.0"
+dateparser = "^1.2.0"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.26.0"
+ipywidgets = "^8.1.3"
+jupyterlab = "^4.2.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
