@@ -12,3 +12,6 @@ poetry shell
 python -m magpie.prepare_dataset
 python -m magpie.train
 ```
+
+To convert to ONNX:
+`optimum-cli export onnx --model diwank/hn-upvote-classifier --task feature-extraction --optimize O4 --device cuda --trust-remote-code hn-upvote-classifier-onnx`
