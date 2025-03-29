@@ -1,0 +1,3 @@
+from typing import Any
+
+def get_item_by_id(item_id: int) -> dict[str, Any]: ...

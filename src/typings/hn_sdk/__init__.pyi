@@ -1,0 +1,1 @@
+# HN SDK type stubs
